@@ -1,0 +1,78 @@
+light:
+  #甲醛检测仪--客厅
+  - name: zm1_b0f89311702c_brightness
+    unique_id: zm1_b0f89311702c_brightness
+    schema: template
+    command_topic: "device/zm1/b0f89311702c/set"
+    state_topic: "device/zm1/b0f89311702c/state"
+    command_on_template: >
+      {"mac": "b0f89311702c"
+      {%- if brightness is defined -%}
+      , "brightness": {{ ((brightness-1) / 64 )|int +1 }}
+      {%- else -%}
+      , "brightness": 4
+      {%- endif -%}
+      }
+    command_off_template: '{"mac": "b0f89311702c", "brightness": 0}'
+    state_template: >
+      {%- if value_json.brightness == 0 -%}
+        off
+      {%- else -%}
+        on
+      {%- endif -%}
+    brightness_template: >
+      {%- if value_json.brightness is defined -%}
+        {{ ( value_json.brightness *64 )|int }}
+      {%- endif -%}
+
+  #甲醛检测仪--主卧
+
+  - name: zm1_b0f893115c62_brightness
+    unique_id: zm1_b0f893115c62_brightness
+    schema: template
+    command_topic: "device/zm1/b0f893115c62/set"
+    state_topic: "device/zm1/b0f893115c62/state"
+    command_on_template: >
+      {"mac": "b0f893115c62"
+      {%- if brightness is defined -%}
+      , "brightness": {{ ((brightness-1) / 64 )|int +1 }}
+      {%- else -%}
+      , "brightness": 4
+      {%- endif -%}
+      }
+    command_off_template: '{"mac": "b0f893115c62", "brightness": 0}'
+    state_template: >
+      {%- if value_json.brightness == 0 -%}
+        off
+      {%- else -%}
+        on
+      {%- endif -%}
+    brightness_template: >
+      {%- if value_json.brightness is defined -%}
+        {{ ( value_json.brightness *64 )|int }}
+      {%- endif -%}
+  #甲醛检测-次卧
+  - name: zm1_b0f8931f0a0d_brightness
+    unique_id: zm1_b0f8931f0a0d_brightness
+    schema: template
+    command_topic: "device/zm1/b0f8931f0a0d/set"
+    state_topic: "device/zm1/b0f8931f0a0d/state"
+    command_on_template: >
+      {"mac": "b0f8931f0a0d"
+      {%- if brightness is defined -%}
+      , "brightness": {{ ((brightness-1) / 64 )|int +1 }}
+      {%- else -%}
+      , "brightness": 4
+      {%- endif -%}
+      }
+    command_off_template: '{"mac": "b0f8931f0a0d", "brightness": 0}'
+    state_template: >
+      {%- if value_json.brightness == 0 -%}
+        off
+      {%- else -%}
+        on
+      {%- endif -%}
+    brightness_template: >
+      {%- if value_json.brightness is defined -%}
+        {{ ( value_json.brightness *64 )|int }}
+      {%- endif -%}

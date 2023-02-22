@@ -1,0 +1,171 @@
+sensor:
+  #甲醛检测仪--客厅
+  - name: 'zm1_b0f89311702c_temperature'
+    unique_id: zm1_b0f89311702c_temperature
+    # friendly_name: 温度
+    state_topic: 'device/zm1/b0f89311702c/sensor'
+    unit_of_measurement: '°C'
+    icon: 'mdi:thermometer'
+    value_template: '{{ value_json.temperature }}'
+  - name: 'zm1_b0f89311702c_humidity'
+    unique_id: zm1_b0f89311702c_humidity
+    # friendly_name: 湿度
+    state_topic: 'device/zm1/b0f89311702c/sensor'
+    unit_of_measurement: '%'
+    icon: mdi:water-percent
+    value_template: '{{ value_json.humidity }}'
+  - name: 'zm1_b0f89311702c_pm25'
+    unique_id: zm1_b0f89311702c_pm25
+    # friendly_name: PM25
+    state_topic: 'device/zm1/b0f89311702c/sensor'
+    unit_of_measurement: 'μg/m³'
+    icon: mdi:blur
+    value_template: '{{ value_json.PM25 }}'
+  - name: 'zm1_b0f89311702c_hcho'
+    unique_id: zm1_b0f89311702c_hcho
+    # friendly_name: 甲醛
+    state_topic: 'device/zm1/b0f89311702c/sensor'
+    unit_of_measurement: 'mg/m³'
+    icon: mdi:chemical-weapon
+    value_template: '{{ value_json.formaldehyde }}'
+
+  #甲醛检测仪--主卧
+  - name: 'zm1_b0f893115c62_temperature'
+    unique_id: zm1_b0f893115c62_temperature
+    # friendly_name: 温度
+    state_topic: 'device/zm1/b0f893115c62/sensor'
+    unit_of_measurement: '°C'
+    icon: 'mdi:thermometer'
+    value_template: '{{ value_json.temperature }}'
+  - name: 'zm1_b0f893115c62_humidity'
+    unique_id: zm1_b0f893115c62_humidity
+    # friendly_name: 湿度
+    state_topic: 'device/zm1/b0f893115c62/sensor'
+    unit_of_measurement: '%'
+    icon: mdi:water-percent
+    value_template: '{{ value_json.humidity }}'
+  - name: 'zm1_b0f893115c62_pm25'
+    unique_id: zm1_b0f893115c62_pm25
+    # friendly_name: PM25
+    state_topic: 'device/zm1/b0f893115c62/sensor'
+    unit_of_measurement: 'μg/m³'
+    icon: mdi:blur
+    value_template: '{{ value_json.PM25 }}'
+  - name: 'zm1_b0f893115c62_hcho'
+    unique_id: zm1_b0f893115c62_hcho
+    # friendly_name: 甲醛
+    state_topic: 'device/zm1/b0f893115c62/sensor'
+    unit_of_measurement: 'mg/m³'
+    icon: mdi:chemical-weapon
+    value_template: '{{ value_json.formaldehyde }}'
+    #甲醛检测仪--次卧
+  - name: 'zm1_b0f8931f0a0d_temperature'
+    unique_id: zm1_b0f8931f0a0d_temperature
+    # friendly_name: 温度
+    state_topic: 'device/zm1/b0f8931f0a0d/sensor'
+    unit_of_measurement: '°C'
+    icon: 'mdi:thermometer'
+    value_template: '{{ value_json.temperature }}'
+  - name: 'zm1_b0f8931f0a0d_humidity'
+    unique_id: zm1_b0f8931f0a0d_humidity
+    # friendly_name: 湿度
+    state_topic: 'device/zm1/b0f8931f0a0d/sensor'
+    unit_of_measurement: '%'
+    icon: mdi:water-percent
+    value_template: '{{ value_json.humidity }}'
+  - name: 'zm1_b0f8931f0a0d_pm25'
+    unique_id: zm1_b0f8931f0a0d_pm25
+    # friendly_name: PM25
+    state_topic: 'device/zm1/b0f8931f0a0d/sensor'
+    unit_of_measurement: 'μg/m³'
+    icon: mdi:blur
+    value_template: '{{ value_json.PM25 }}'
+  - name: 'zm1_b0f8931f0a0d_hcho'
+    unique_id: zm1_b0f8931f0a0d_hcho
+    # friendly_name: 甲醛
+    state_topic: 'device/zm1/b0f8931f0a0d/sensor'
+    unit_of_measurement: 'mg/m³'
+    icon: mdi:chemical-weapon
+    value_template: '{{ value_json.formaldehyde }}'
+
+
+  #  书房的插排
+  - name: 'zdc1_power_2c3ae8020f0e'
+    unique_id: zdc1_power_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/sensor'
+    unit_of_measurement: 'W'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.power }}'
+  - name: 'zdc1_current_2c3ae8020f0e'
+    unique_id: zdc1_current_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/sensor'
+    unit_of_measurement: 'A'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.current}}'
+  - name: 'zdc1_voltage_2c3ae8020f0e'
+    unique_id: zdc1_voltage_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/sensor'
+    unit_of_measurement: 'V'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.voltage}}'
+
+  #主卧的插排
+  - name: 'zdc1_power_2c3ae8009aa1'
+    unique_id: zdc1_power_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/sensor'
+    unit_of_measurement: 'W'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.power }}'
+  - name: 'zdc1_current_2c3ae8009aa1'
+    unique_id: zdc1_current_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/sensor'
+    unit_of_measurement: 'A'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.current}}'
+  - name: 'zdc1_voltage_2c3ae8009aa1'
+    unique_id: zdc1_voltage_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/sensor'
+    unit_of_measurement: 'V'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.voltage}}'
+
+  #次卧的插排
+  - name: 'zdc1_power_ecfabc0b1e99'
+    unique_id: zdc1_power_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/sensor'
+    unit_of_measurement: 'W'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.power }}'
+  - name: 'zdc1_current_ecfabc0b1e99'
+    unique_id: zdc1_current_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/sensor'
+    unit_of_measurement: 'A'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.current}}'
+  - name: 'zdc1_voltage_ecfabc0b1e99'
+    unique_id: zdc1_voltage_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/sensor'
+    unit_of_measurement: 'V'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.voltage}}'
+
+
+  #客厅电视柜的插排
+  - name: 'zdc1_power_2c3ae8020f87'
+    unique_id: zdc1_power_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/sensor'
+    unit_of_measurement: 'W'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.power }}'
+  - name: 'zdc1_current_2c3ae8020f87'
+    unique_id: zdc1_current_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/sensor'
+    unit_of_measurement: 'A'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.current}}'
+  - name: 'zdc1_voltage_2c3ae8020f87'
+    unique_id: zdc1_voltage_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/sensor'
+    unit_of_measurement: 'V'
+    icon: 'mdi:gauge'
+    value_template: '{{ value_json.voltage}}'

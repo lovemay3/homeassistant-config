@@ -1,0 +1,68 @@
+m1a:
+  name: 客厅M1
+  entities:
+    - light.zm1_b0f89311702c_brightness
+    - sensor.zm1_b0f89311702c_temperature
+    - sensor.zm1_b0f89311702c_humidity
+    - sensor.zm1_b0f89311702c_pm25
+    - sensor.zm1_b0f89311702c_hcho
+m1b:
+  name: 主卧M1
+  entities:
+    - light.zm1_b0f893115c62_brightness
+    - sensor.zm1_b0f893115c62_temperature
+    - sensor.zm1_b0f893115c62_humidity
+    - sensor.zm1_b0f893115c62_pm25
+    - sensor.zm1_b0f893115c62_hcho
+m1c:
+  name: 次卧M1
+  entities:
+    - light.zm1_b0f8931f0a0d_brightness
+    - sensor.zm1_b0f8931f0a0d_temperature
+    - sensor.zm1_b0f8931f0a0d_humidity
+    - sensor.zm1_b0f8931f0a0d_pm25
+    - sensor.zm1_b0f8931f0a0d_hcho
+
+dc1a:
+  name: 书房插排
+  entities:
+    - switch.zDC1_plug0_2c3ae8020f0e
+    - switch.zDC1_plug1_2c3ae8020f0e
+    - switch.zDC1_plug2_2c3ae8020f0e
+    - switch.zDC1_plug3_2c3ae8020f0e
+    - sensor.zdc1_power_2c3ae8020f0e
+    - sensor.zdc1_current_2c3ae8020f0e
+    - sensor.zdc1_voltage_2c3ae8020f0e
+dc1b:
+  name: 主卧插排
+  entities:
+    - switch.zDC1_plug0_2c3ae8009aa1
+    - switch.zDC1_plug1_2c3ae8009aa1
+    - switch.zDC1_plug2_2c3ae8009aa1
+    - switch.zDC1_plug3_2c3ae8009aa1
+    - sensor.zdc1_power_2c3ae8009aa1
+    - sensor.zdc1_current_2c3ae8009aa1
+    - sensor.zdc1_voltage_2c3ae8009aa1
+
+dc1c:
+  name: 次卧插排
+  entities:
+    - switch.zDC1_plug0_ecfabc0b1e99
+    - switch.zDC1_plug1_ecfabc0b1e99
+    - switch.zDC1_plug2_ecfabc0b1e99
+    - switch.zDC1_plug3_ecfabc0b1e99
+    - sensor.zdc1_power_ecfabc0b1e99
+    - sensor.zdc1_current_ecfabc0b1e99
+    - sensor.zdc1_voltage_ecfabc0b1e99
+
+dc1d:
+  name: 电视柜插排
+  entities:
+    - switch.zDC1_plug0_2c3ae8020f87
+    - switch.zDC1_plug1_2c3ae8020f87
+    - switch.zDC1_plug2_2c3ae8020f87
+    - switch.zDC1_plug3_2c3ae8020f87
+    - sensor.zdc1_power_2c3ae8020f87
+    - sensor.zdc1_current_2c3ae8020f87
+    - sensor.zdc1_voltage_2c3ae8020f87
+

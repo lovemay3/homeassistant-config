@@ -1,0 +1,9 @@
+{
+    "domain": "gjdw",
+    "name": "bj电费查询",
+    "documentation": "https://www.example.com",
+    "version":"0.1",
+    "dependencies": [],
+    "codeowners": ["@zero"],
+    "requirements": []
+}

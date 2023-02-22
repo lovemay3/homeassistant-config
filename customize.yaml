@@ -1,0 +1,93 @@
+light.zm1_b0f89311702c_brightness:
+  friendly_name: zM1亮度-客厅
+sensor.zm1_b0f89311702c_temperature:
+  friendly_name: zM1温度-客厅
+sensor.zm1_b0f89311702c_humidity:
+  friendly_name: zM1湿度-客厅
+sensor.zm1_b0f89311702c_pm25:
+  friendly_name: zM1 PM2.5-客厅
+sensor.zm1_b0f89311702c_hcho:
+  friendly_name: zM1甲醛-客厅
+
+light.zm1_b0f893115c62_brightness:
+  friendly_name: zM1亮度-主卧
+sensor.zm1_b0f893115c62_temperature:
+  friendly_name: zM1温度-主卧
+sensor.zm1_b0f893115c62_humidity:
+  friendly_name: zM1湿度-主卧
+sensor.zm1_b0f893115c62_pm25:
+  friendly_name: zM1 PM2.5-主卧
+sensor.zm1_b0f893115c62_hcho:
+  friendly_name: zM1甲醛-主卧
+
+light.zm1_b0f8931f0a0d_brightness:
+  friendly_name: zM1亮度-次卧
+sensor.zm1_b0f8931f0a0d_temperature:
+  friendly_name: zM1温度-次卧
+sensor.zm1_b0f8931f0a0d_humidity:
+  friendly_name: zM1湿度-次卧
+sensor.zm1_b0f8931f0a0d_pm25:
+  friendly_name: zM1 PM2.5-次卧
+sensor.zm1_b0f8931f0a0d_hcho:
+  friendly_name: zM1甲醛-次卧
+
+
+switch.zDC1_plug0_2c3ae8020f0e:
+  friendly_name: zDC1总开关-书房
+switch.zDC1_plug1_2c3ae8020f0e:
+  friendly_name: zDC1插槽1-书房
+switch.zDC1_plug2_2c3ae8020f0e:
+  friendly_name: zDC1插槽2-书房
+switch.zDC1_plug3_2c3ae8020f0e:
+  friendly_name: zDC1插槽3-书房
+sensor.zdc1_power_2c3ae8020f0e:
+  friendly_name: zDC1功率-书房
+sensor.zdc1_current_2c3ae8020f0e:
+  friendly_name: zDC1电流-书房
+sensor.zdc1_voltage_2c3ae8020f0e:
+  friendly_name: zDC1电压-书房
+
+switch.zDC1_plug0_2c3ae8009aa1:
+  friendly_name: zDC1总开关-主卧
+switch.zDC1_plug1_2c3ae8009aa1:
+  friendly_name: zDC1插槽1-主卧
+switch.zDC1_plug2_2c3ae8009aa1:
+  friendly_name: zDC1插槽2-主卧
+switch.zDC1_plug3_2c3ae8009aa1:
+  friendly_name: zDC1插槽3-主卧
+sensor.zdc1_power_2c3ae8009aa1:
+  friendly_name: zDC1功率-主卧
+sensor.zdc1_current_2c3ae8009aa1:
+  friendly_name: zDC1电流-主卧
+sensor.zdc1_voltage_2c3ae8009aa1:
+  friendly_name: zDC1电压-主卧
+
+switch.zDC1_plug0_ecfabc0b1e99:
+  friendly_name: zDC1总开关-次卧
+switch.zDC1_plug1_ecfabc0b1e99:
+  friendly_name: zDC1插槽1-次卧
+switch.zDC1_plug2_ecfabc0b1e99:
+  friendly_name: zDC1插槽2-次卧
+switch.zDC1_plug3_ecfabc0b1e99:
+  friendly_name: zDC1插槽3-次卧
+sensor.zdc1_power_ecfabc0b1e99:
+  friendly_name: zDC1功率-次卧
+sensor.zdc1_current_ecfabc0b1e99:
+  friendly_name: zDC1电流-次卧
+sensor.zdc1_voltage_ecfabc0b1e99:
+  friendly_name: zDC1电压-次卧
+
+switch.zDC1_plug0_2c3ae8020f87:
+  friendly_name: zDC1总开关-电视柜
+switch.zDC1_plug1_2c3ae8020f87:
+  friendly_name: zDC1插槽1-电视柜
+switch.zDC1_plug2_2c3ae8020f87:
+  friendly_name: zDC1插槽2-电视柜
+switch.zDC1_plug3_2c3ae8020f87:
+  friendly_name: zDC1插槽3-电视柜
+sensor.zdc1_power_2c3ae8020f87:
+  friendly_name: zDC1功率-电视柜
+sensor.zdc1_current_2c3ae8020f87:
+  friendly_name: zDC1电流-电视柜
+sensor.zdc1_voltage_2c3ae8020f87:
+  friendly_name: zDC1电压-电视柜

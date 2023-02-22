@@ -1,0 +1,202 @@
+switch:
+  # 书房的插排
+  - name: 'zDC1_plug0_2c3ae8020f0e'
+    unique_id: zDC1_plug0_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/state'
+    command_topic: 'device/zdc1/2c3ae8020f0e/set'
+    payload_on: '{"mac":"2c3ae8020f0e","plug_0":{"on":1},"plug_1":{"on":1},"plug_2":{"on":1},"plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f0e","plug_0":{"on":0}}'
+    value_template: '{{ value_json.plug_0.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f0e/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug1_2c3ae8020f0e'
+    unique_id: zDC1_plug1_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/state'
+    command_topic: 'device/zdc1/2c3ae8020f0e/set'
+    payload_on: '{"mac":"2c3ae8020f0e","plug_1":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f0e","plug_1":{"on":0}}'
+    value_template: '{{ value_json.plug_1.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f0e/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug2_2c3ae8020f0e'
+    unique_id: zDC1_plug2_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/state'
+    command_topic: 'device/zdc1/2c3ae8020f0e/set'
+    payload_on: '{"mac":"2c3ae8020f0e","plug_2":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f0e","plug_2":{"on":0}}'
+    value_template: '{{ value_json.plug_2.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f0e/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug3_2c3ae8020f0e'
+    unique_id: zDC1_plug3_2c3ae8020f0e
+    state_topic: 'device/zdc1/2c3ae8020f0e/state'
+    command_topic: 'device/zdc1/2c3ae8020f0e/set'
+    payload_on: '{"mac":"2c3ae8020f0e","plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f0e","plug_3":{"on":0}}'
+    value_template: '{{ value_json.plug_3.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f0e/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+
+  #主卧的插排
+  - name: 'zDC1_plug0_2c3ae8009aa1'
+    unique_id: zDC1_plug0_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/state'
+    command_topic: 'device/zdc1/2c3ae8009aa1/set'
+    payload_on: '{"mac":"2c3ae8009aa1","plug_0":{"on":1},"plug_1":{"on":1},"plug_2":{"on":1},"plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8009aa1","plug_0":{"on":0}}'
+    value_template: '{{ value_json.plug_0.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8009aa1/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug1_2c3ae8009aa1'
+    unique_id: zDC1_plug1_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/state'
+    command_topic: 'device/zdc1/2c3ae8009aa1/set'
+    payload_on: '{"mac":"2c3ae8009aa1","plug_1":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8009aa1","plug_1":{"on":0}}'
+    value_template: '{{ value_json.plug_1.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8009aa1/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug2_2c3ae8009aa1'
+    unique_id: zDC1_plug2_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/state'
+    command_topic: 'device/zdc1/2c3ae8009aa1/set'
+    payload_on: '{"mac":"2c3ae8009aa1","plug_2":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8009aa1","plug_2":{"on":0}}'
+    value_template: '{{ value_json.plug_2.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8009aa1/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug3_2c3ae8009aa1'
+    unique_id: zDC1_plug3_2c3ae8009aa1
+    state_topic: 'device/zdc1/2c3ae8009aa1/state'
+    command_topic: 'device/zdc1/2c3ae8009aa1/set'
+    payload_on: '{"mac":"2c3ae8009aa1","plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8009aa1","plug_3":{"on":0}}'
+    value_template: '{{ value_json.plug_3.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8009aa1/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+
+
+
+  #次卧的插排
+  - name: 'zDC1_plug0_ecfabc0b1e99'
+    unique_id: zDC1_plug0_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/state'
+    command_topic: 'device/zdc1/ecfabc0b1e99/set'
+    payload_on: '{"mac":"ecfabc0b1e99","plug_0":{"on":1},"plug_1":{"on":1},"plug_2":{"on":1},"plug_3":{"on":1}}'
+    payload_off: '{"mac":"ecfabc0b1e99","plug_0":{"on":0}}'
+    value_template: '{{ value_json.plug_0.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/ecfabc0b1e99/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug1_ecfabc0b1e99'
+    unique_id: zDC1_plug1_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/state'
+    command_topic: 'device/zdc1/ecfabc0b1e99/set'
+    payload_on: '{"mac":"ecfabc0b1e99","plug_1":{"on":1}}'
+    payload_off: '{"mac":"ecfabc0b1e99","plug_1":{"on":0}}'
+    value_template: '{{ value_json.plug_1.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/ecfabc0b1e99/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug2_ecfabc0b1e99'
+    unique_id: zDC1_plug2_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/state'
+    command_topic: 'device/zdc1/ecfabc0b1e99/set'
+    payload_on: '{"mac":"ecfabc0b1e99","plug_2":{"on":1}}'
+    payload_off: '{"mac":"ecfabc0b1e99","plug_2":{"on":0}}'
+    value_template: '{{ value_json.plug_2.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/ecfabc0b1e99/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug3_ecfabc0b1e99'
+    unique_id: zDC1_plug3_ecfabc0b1e99
+    state_topic: 'device/zdc1/ecfabc0b1e99/state'
+    command_topic: 'device/zdc1/ecfabc0b1e99/set'
+    payload_on: '{"mac":"ecfabc0b1e99","plug_3":{"on":1}}'
+    payload_off: '{"mac":"ecfabc0b1e99","plug_3":{"on":0}}'
+    value_template: '{{ value_json.plug_3.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/ecfabc0b1e99/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+
+  #客厅电视柜的插排
+  - name: 'zDC1_plug0_2c3ae8020f87'
+    unique_id: zDC1_plug0_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/state'
+    command_topic: 'device/zdc1/2c3ae8020f87/set'
+    payload_on: '{"mac":"2c3ae8020f87","plug_0":{"on":1},"plug_1":{"on":1},"plug_2":{"on":1},"plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f87","plug_0":{"on":0}}'
+    value_template: '{{ value_json.plug_0.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f87/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug1_2c3ae8020f87'
+    unique_id: zDC1_plug1_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/state'
+    command_topic: 'device/zdc1/2c3ae8020f87/set'
+    payload_on: '{"mac":"2c3ae8020f87","plug_1":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f87","plug_1":{"on":0}}'
+    value_template: '{{ value_json.plug_1.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f87/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug2_2c3ae8020f87'
+    unique_id: zDC1_plug2_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/state'
+    command_topic: 'device/zdc1/2c3ae8020f87/set'
+    payload_on: '{"mac":"2c3ae8020f87","plug_2":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f87","plug_2":{"on":0}}'
+    value_template: '{{ value_json.plug_2.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f87/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0
+  - name: 'zDC1_plug3_2c3ae8020f87'
+    unique_id: zDC1_plug3_2c3ae8020f87
+    state_topic: 'device/zdc1/2c3ae8020f87/state'
+    command_topic: 'device/zdc1/2c3ae8020f87/set'
+    payload_on: '{"mac":"2c3ae8020f87","plug_3":{"on":1}}'
+    payload_off: '{"mac":"2c3ae8020f87","plug_3":{"on":0}}'
+    value_template: '{{ value_json.plug_3.on }}'
+    state_on: '1'
+    state_off: '0'
+  #    availability_topic: "device/zdc1/2c3ae8020f87/availability"
+  #    payload_available: 1
+  #    payload_not_available: 0

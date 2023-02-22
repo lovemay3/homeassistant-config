@@ -1,0 +1,29 @@
+{
+  "config": {
+      "abort": {
+          "already_configured": "This UID has been already configured"
+        },
+      "error": {
+          "invalid_uid": "Invalid UID"
+      },
+      "step": {
+          "user": {
+              "data": {
+                  "uid": "Bemfa UID"
+              },
+              "title": "Bemfa User"
+          }
+      }
+  },
+  "options": {
+      "step": {
+          "entities": {
+              "data": {
+                  "include_entities": "Select Entities"
+              },
+              "description": "Select entities to synchronize to bemfa service:",
+              "title": "Entities"
+          }
+      }
+  }
+}
